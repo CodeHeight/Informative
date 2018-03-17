@@ -23,3 +23,7 @@
 .footer-block ul li {
     color: #fff;
 }
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    font-size: 22px;
+}

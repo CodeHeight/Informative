@@ -575,7 +575,7 @@ button.close:hover {
     text-align: justify;
 }
 .counter-full-image{
-    background: url('../images/Home/Image20.png') no-repeat scroll 0 0 / cover ;
+    background: url('../images/fireplace/fireplace1280x352.jpg') no-repeat scroll 0 0 / cover ;
     padding: 110px 0;
     color: #fff;
     text-align: center;
@@ -642,7 +642,7 @@ button.close:hover {
 }
 /*contact form*/
 .contact-block-full-image{
-    background: url('../images/Home/Image26.png') no-repeat scroll 0 0 / cover ;
+    background: url('../images/doors/garagedoor1280x534.jpg') no-repeat scroll 0 0 / cover ;
     margin-top: 135px;
     padding: 65px 0;
 }

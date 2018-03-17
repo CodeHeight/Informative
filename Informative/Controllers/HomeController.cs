@@ -8,7 +8,22 @@ namespace Informative.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public ViewResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+        public ViewResult Service()
+        {
+            return View();
+        }
+
+        public ViewResult Support()
         {
             return View();
         }

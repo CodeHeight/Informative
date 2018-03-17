@@ -58,14 +58,14 @@
                         </div>
                         <div class="collapse navbar-collapse text-center" id="myNavbar">
                             <ul class="nav navbar-nav margin-l">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Support</a></li>
+                                <li class="active"><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                <li><a href="@Url.Action("Contact", "Home")">Contact</a></li>
+                                <li><a href="@Url.Action("Support", "Home")">Support</a></li>
                                 <li><a href="#">Repair & Service</a></li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a href="#">Residential</a></li>
-                                <li><a href="#">Commercial</a></li>
+                                <li><a href="@Url.Action("Index", "Commercial")">Commercial</a></li>
                                 <li><a href="#">Fireplace & Logs</a></li>
                             </ul>
                         </div>
@@ -81,17 +81,18 @@
     <!--special block--->
     <section class="welcome-block">
         <div class="container">
-            @*<div class="height-135"></div>*@
             <div class="image hidden-xs">
                 <a><img class="img-responsive" src="../Content/images/Home/5.jpg" alt="image"></a>
             </div>
-            <p class="about-info">
+            <div class="height-70"></div>
+            <h5>
                 We have been serving central Alabama’s garage door and fireplace needs since 1958.  Overhead Door & Fireplace Co., Inc. offers a variety of products and services catered to each individual customer. From commercial and industrial overhead doors and access systems to residential garage doors and openers, to a complete line of fireplaces and logs.
                 <br /><br />
                 Our third generation family-owned and operated business has served central Alabama for over 60 years.  We provide quality products and excellent customer service.  Visit our showroom to see a full line of residential and commercial garage doors, electric operators, wood, gas, ventless and electric fireplaces.  We also display a large variety of gas logs and accessories.
-            </p>
+            </h5>
         </div>
         <div class="clearfix"></div>
+        <div class="height-70"></div>
     </section>
     <!--service block--->
     <section class="service-block">
@@ -138,6 +139,7 @@
             </div>
 
         </div>
+        <div class="height-70"></div>
     </section>
     <!--counter block---->
     <section class="counter-block">
@@ -274,8 +276,8 @@
                         </div>
                     </div>
                 </div>
-                <a class="left carousel-control" href="#myCarousel6" data-slide="prev"> <img src="../Content/images/icons/prev.png" onmouseover="this.src = '../Content/images/icons/prev-hover.png'" onmouseout="    this.src = '../Content/images/icons/prev.png'" alt="left"></a>
-                <a class="right carousel-control" href="#myCarousel6" data-slide="next"><img src="../Content/images/icons/next.png" onmouseover="this.src = '../Content/images/icons/next-hover.png'" onmouseout="    this.src = '../Content/images/icons/next.png'" alt="left"></a>
+                <a class="left carousel-control" href="#myCarousel6" data-slide="prev"> <img src="../Content/images/icons/prev.png" onmouseover="this.src = '../Content/images/icons/prev-hover.png'" onmouseout=" this.src='../Content/images/icons/prev.png' " alt="left"></a>
+                <a class="right carousel-control" href="#myCarousel6" data-slide="next"><img src="../Content/images/icons/next.png" onmouseover="this.src = '../Content/images/icons/next-hover.png'" onmouseout=" this.src='../Content/images/icons/next.png' " alt="left"></a>
             </div>
         </div>
     </section>
@@ -367,16 +369,16 @@
     <!--end-->
     <!--back to top--->
     <a id="back-to-top" class="scrollTop back-to-top" href="javascript:void(0);" style="display: none;">
-        <img src="../Content/images/top-arrow.png" onmouseover="this.src = '../Content/images/top-arrow2.png'" onmouseout="    this.src = '../Content/images/top-arrow.png'" alt="left">
+        <img src="../Content/images/top-arrow.png" onmouseover="this.src = '../Content/images/top-arrow2.png'" onmouseout=" this.src='../Content/images/top-arrow.png' " alt="left">
     </a>
     <!--end--->
     <script>
-            jQuery(document).ready(function ($) {
-                $('.counter').counterUp({
-                    delay: 10,
-                    time: 1000
-                });
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
             });
+        });
     </script>
 </body>
 </html>

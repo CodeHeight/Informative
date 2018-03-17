@@ -1,0 +1,240 @@
+﻿
+@{
+    ViewBag.Title = "Overhead Door";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../Content/images/icons/favicon.ico" />
+    <title>@ViewBag.Title</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../Content/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Custom styles for this template -->
+    <link href="../Content/css/style.css" rel="stylesheet">
+    <link href="../Content/css/custom.css" rel="stylesheet">
+    <link href="../Content/css/responsive.css" rel="stylesheet">
+    <script src="../Scripts/js/jquery.min.js" type="text/javascript"></script>
+    <script src="../Scripts/js/bootstrap.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../Scripts/js/instafeed.min.js"></script>
+    <script src="../Scripts/js/custom.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <!--header--->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <p>3741 Grandview Road Millbrook, AL 36054</p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 text-right">
+                        <p>Monday through Friday: 8:00 am - 4:00 pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 visible-xs">
+                        <div class="logo-mobile">
+                            <a href="#"><img src="../Content/images/Home/5.jpg" class="img-responsive" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-11 col-xs-12">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse text-center" id="myNavbar">
+                            <ul class="nav navbar-nav margin-l">
+                                <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                                <li class="active"><a href="@Url.Action("Contact", "Home")">Contact</a></li>
+                                <li><a href="@Url.Action("Support", "Home")">Support</a></li>
+                                <li><a href="#">Repair & Service</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#">Residential</a></li>
+                                <li><a href="#">Commercial</a></li>
+                                <li><a href="#">Fireplace & Logs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="clearfix"></div>
+    </header>
+    <!--end-->
+    <section class="welcome-block">
+        <div class="container">
+            @*<div class="height-135"></div>*@
+            <div class="image hidden-xs">
+                <a><img class="img-responsive" src="../Content/images/Home/5.jpg" alt="image"></a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+    <section class="padd-top-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Contact<span class="text-thin"> our team</span></h2>
+                </div>
+            </div>
+            <div class="row margin-t60 custom-grid">
+                <div class="col-xs-6">
+                    <h4>Visit our showroom:</h4>
+                    <p class="small-content">3741 Grandview Road Millbrook, AL 36054</p>
+                    <hr />
+                    <h4>Contact our team by phone:</h4>
+                    <p class="small-content">334-285-5275</p>
+                    <hr />
+                    <h4>Contact our team by email:</h4>
+                    <p class="small-content">info@ohdfireplace.com</p>
+                    <hr />
+                    <h4>Contact our team by website:</h4>
+                    <p class="small-content">Fill out the form below:</p>
+                    <hr />
+                </div>
+                <div class="col-xs-6">
+                    <img src="~/Content/images/front.png" alt="" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+
+
+
+    <section class="contact-block">
+        <div class="contact-block-full-image">
+            <div class="container">
+                <form name="sentMessage" id="contactForm">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="text" id="name1" class="form-control" placeholder="Name :" required="" aria-invalid="false">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="text" id="contact1" class="form-control" placeholder="Contact Number :" required="">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="email" id="email1" class="form-control" placeholder="Email id :" required="">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <input type="text" id="category1" class="form-control" placeholder="category :" required="">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message1" class="form-control" rows="4" placeholder="Message :" required="" aria-invalid="false"></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div id="success"></div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-lg btn-button">send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.8493949039807!2d-86.36269108448379!3d32.476719806542654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888e84c9abb1acb1%3A0x32a8540a599e2caf!2s3741+Grandview+Rd%2C+Millbrook%2C+AL+36054!5e0!3m2!1sen!2sus!4v1521295502835" frameborder="0" style="border:0; width: 100%; height: 350px; margin-top: 50px;" allowfullscreen></iframe>
+    </section>
+    <!--footer-->
+    <footer>
+        <div class="container">
+            <div class="row footer-block-main text-center">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 width-50">
+                    <div class="footer-block">
+                        <h4>quick links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="@Url.Action("Index", "Home")">Home</a> | <a href="#">Residential</a></li>
+                            <li><a href="@Url.Action("Contact", "Home")">Contact</a> | <a href="#">Commercial</a></li>
+                            <li><a href="@Url.Action("Support", "Home")">Support</a> | <a href="#">Fireplace & Logs</a></li>
+                            <li><a href="#">Repair & Service</a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 width-50">
+                    <div class="footer-block">
+                        <h4>contact</h4>
+                        <ul class="list-unstyled">
+                            <li><p>week days : 800 AM - 400 PM</p></li>
+                            <li><p>334-285-5275</p></li>
+                            <li><p>info@ohdfireplace.com</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 width-50">
+                    <div class="footer-block">
+                        <h4>address</h4>
+                        <ul class="list-unstyled">
+                            <li>3741 Grandview Road</li>
+                            <li>Millbrook, AL</li>
+                            <li>36054</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <hr />
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12">
+                    <div class="social-grid text-right">
+                        <ul>
+                            <li><a><i class="fa fa-facebook"></i></a></li>
+                            <li><a><i class="fa fa-twitter"></i></a></li>
+                            <li><a><i class="fa fa-instagram"></i></a></li>
+                            <li><a><i class="fa fa-google-plus"></i></a></li>
+                            <li><a><i class="fa fa-youtube-play"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="copyright">
+                        © 2018 All rights reserved <br />
+                        Overhead Door Company of Montgomery <br />
+                        Designed and hosted by <a href="https://www.codeheight.com/" target="_blank">CodeHeight Solutions, LLC</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end-->
+    <!--back to top--->
+    <a id="back-to-top" class="scrollTop back-to-top" href="javascript:void(0);" style="display: none;">
+        <img src="../Content/images/top-arrow.png" onmouseover="this.src = '../Content/images/top-arrow2.png'" onmouseout=" this.src='../Content/images/top-arrow.png' " alt="left">
+    </a>
+
+</body>
+</html>
