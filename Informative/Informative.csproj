@@ -134,7 +134,12 @@
     <Content Include="Content\fonts\oswald\stylesheet.css" />
     <Content Include="Content\images\dockequipment\lift_300x240.jpg" />
     <Content Include="Content\images\doors\garagedoor1280x534.jpg" />
+    <Content Include="Content\images\doors\high-speed-fabric-doors.jpg" />
+    <Content Include="Content\images\doors\insulated-sectional.jpg" />
     <Content Include="Content\images\doors\residental300x240.jpg" />
+    <Content Include="Content\images\doors\rolling-service-door.jpg" />
+    <Content Include="Content\images\doors\rolling-service-doors-big.jpg" />
+    <Content Include="Content\images\doors\thermacore-doors.jpg" />
     <Content Include="Content\images\fireplace\fireplace1280x352.jpg" />
     <Content Include="Content\images\fireplace\fireplace300x240.jpg" />
     <Content Include="Content\images\front.png" />
@@ -242,6 +247,8 @@
     <Content Include="Views\Home\Service.cshtml" />
     <Content Include="Views\Home\Support.cshtml" />
     <Content Include="Views\Commercial\Index.cshtml" />
+    <Content Include="Views\Commercial\RollingService.cshtml" />
+    <Content Include="Views\Commercial\InsulatedSectional.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

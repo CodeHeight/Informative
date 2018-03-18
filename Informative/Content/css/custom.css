@@ -27,3 +27,11 @@
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
     font-size: 22px;
 }
+
+.paragraph {
+    font-size: 18px;
+    font-family: "Nunito Light";
+    line-height: 24px;
+    text-align: left;
+}
+

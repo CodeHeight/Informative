@@ -12,5 +12,15 @@ namespace Informative.Controllers
         {
             return View();
         }
+
+        public ViewResult RollingService()
+        {
+            return View();
+        }
+
+        public ViewResult InsulatedSectional()
+        {
+            return View();
+        }
     }
 }

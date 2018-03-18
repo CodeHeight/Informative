@@ -221,7 +221,7 @@ li.dropdown{
     vertical-align: baseline;
 }
 /*padding block*/
-.welcome-block, .special-block, .food-block, .service-block, .book-block, .counter-block, .staff-block, .subscribe-block, .contact-block{
+.welcome-block, .special-block, .informative-block, .service-block, .book-block, .counter-block, .staff-block, .subscribe-block, .contact-block{
     padding-top: 135px;
 }
 .remove-padd, .remove-both-padd{
@@ -356,7 +356,7 @@ li.dropdown{
 }
 
 /*effect*/
-.food-image .overlay, .event-image .overlay, .staff-image .overlay {
+.informative-image .overlay, .event-image .overlay, .staff-image .overlay {
     background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     left: 0;
@@ -367,16 +367,16 @@ li.dropdown{
     transition: all 0.4s ease-in-out 0s;
     width: 100%;
 }
-.food-image, .event-image, .staff-image {
+.informative-image, .event-image, .staff-image {
     cursor: default;
     overflow: hidden;
     position: relative;
     text-align: center;
 }
-.food-image:hover .overlay, .event-image:hover .overlay, .staff-image:hover .overlay {
+.informative-image:hover .overlay, .event-image:hover .overlay, .staff-image:hover .overlay {
     opacity: 1;
 }
-.food-image a.info, .event-image a.info, .staff-image a.info {
+.informative-image a.info, .event-image a.info, .staff-image a.info {
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -397,7 +397,7 @@ li.dropdown{
     color: #e01931;
 }
 
-.food-image:hover a.info, .event-image:hover a.info {
+.informative-image:hover a.info, .event-image:hover a.info {
     opacity: 1;
     transform: translateY(0px);
 }
@@ -470,7 +470,7 @@ button.close:hover {
     opacity: 1;
     color: #e01931;
 }
-.food-block .image img{
+.informative-block .image img{
     margin-left: auto;
     margin-right: auto;
 }
@@ -1221,15 +1221,16 @@ html .btn-primary:hover{
 }
 .icon-short-code .fa {
     color: #e01931;
-    font-size: 30px;
-    height: 60px;
-    width: 60px;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
 }
 .icon-short-code .icon__body {
     color: #262032;
     font-size: 18px;
     text-align: left;
-    letter-spacing: 1px;
+    line-height: 24px;
+    font-family: "Nunito Light";
 }
 .icon-short-code .icon__body span {
     color: #616161;
