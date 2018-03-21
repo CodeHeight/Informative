@@ -8,19 +8,19 @@ namespace Informative.Controllers
 {
     public class CommercialController : Controller
     {
-        public ViewResult Index()
+        public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Down", "Home");
         }
 
-        public ViewResult RollingService()
+        public ActionResult RollingService()
         {
-            return View();
+            return RedirectToAction("Down", "Home");
         }
 
-        public ViewResult InsulatedSectional()
+        public ActionResult InsulatedSectional()
         {
-            return View();
+            return RedirectToAction("Down", "Home");
         }
     }
 }

@@ -8,22 +8,27 @@ namespace Informative.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index()
+        public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Down", "Home");
         }
 
         public ActionResult Contact()
         {
-            return View();
+            return RedirectToAction("Down", "Home");
         }
 
-        public ViewResult Service()
+        public ActionResult Service()
         {
-            return View();
+            return RedirectToAction("Down", "Home");
         }
 
-        public ViewResult Support()
+        public ActionResult Support()
+        {
+            return RedirectToAction("Down", "Home");
+        }
+
+        public ActionResult Down()
         {
             return View();
         }
