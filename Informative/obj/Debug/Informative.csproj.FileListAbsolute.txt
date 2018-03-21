@@ -49,4 +49,3 @@ C:\Github\Informative\Informative\Informative\bin\Antlr3.Runtime.pdb
 C:\Github\Informative\Informative\Informative\bin\Newtonsoft.Json.xml
 C:\Github\Informative\Informative\Informative\obj\Debug\Informative.dll
 C:\Github\Informative\Informative\Informative\obj\Debug\Informative.pdb
-C:\Github\Informative\Informative\Informative\obj\Debug\Informative.csprojResolveAssemblyReference.cache

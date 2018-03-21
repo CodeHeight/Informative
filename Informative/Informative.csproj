@@ -184,6 +184,7 @@
     <Content Include="Content\images\Home\Image8.png" />
     <Content Include="Content\images\Home\Image9.png" />
     <Content Include="Content\images\Home\logo.png" />
+    <Content Include="Content\images\Home\maintenance.jpg" />
     <Content Include="Content\images\Home\subscribe.png" />
     <Content Include="Content\images\icons\drop-down-arrow.png" />
     <Content Include="Content\images\icons\favicon.ico" />
@@ -226,6 +227,8 @@
     <Content Include="Content\font-awesome\fonts\FontAwesome.otf" />
     <Content Include="Content\fonts\oswald\oswald-heavy-webfont.woff" />
     <Content Include="Content\fonts\oswald\oswald-heavy-webfont.woff2" />
+    <None Include="Properties\PublishProfiles\ohdfireplace - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ohdfireplace - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -245,7 +248,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
